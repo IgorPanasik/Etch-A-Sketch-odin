@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #0f0c26;
+}
+
+button {
+	padding: 8px 20px;
+	border: none;
+	border-radius: 5px;
+	align-self: flex-start;
+	cursor: pointer;
+	background-color: #b9cdcd;
+}
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 600px;
+	height: 600px;
+	border: 1px solid #a8a8a8;
+}
+
+.block {
+	background-color: red;
+
+	border: 1px solid black;
+	border-right: none;
+	border-bottom: none;
+}
